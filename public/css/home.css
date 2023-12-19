@@ -1,0 +1,261 @@
+.bg1 {
+    padding: 25px;
+    background-color: #e0ffa5;
+    text-align: center;
+}
+
+.font1 {
+    font-style: italic;
+    color: #282e2e;
+    font-size: 30px !important;
+    border-style: double !important;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+}
+.font2 {
+    font-size: 16px;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.button1 {
+    text-transform: none;
+    font-size: 13px;
+    font-style: normal;
+    padding: 6px;
+    border-radius: 12px;
+    border: solid 1px #00bdff;
+    width: 279px;
+    margin: 10px auto 0;
+    background: #455161;
+    font-weight: 900;
+    color: #fff;
+    font-weight: 100;
+    box-shadow: 5px 5px 5px #ffffff3b;
+    padding: 15px;
+}
+.marquee-box
+{
+    background-color: #000000;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.live-update-box
+{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: #9f2b23;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.font3 {
+    font-size: 30px;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    color: #ffffff;
+    font-style: italic;
+}
+.point {
+    font-size: 20px;
+    color: #e99318;
+    
+}
+
+
+.live-game-box {
+    text-align: center;
+    color: #1a946f;
+    background-color: #d1d1d1;
+    padding: 8px;
+    border-bottom: 2px solid #133469;
+}
+.live-game-box-text1
+{
+    font-size: 22px;
+        font-weight: bold;
+        color: #2125ff;
+        margin-bottom: 0;
+}
+
+.live-game-box-text2
+{
+    font-weight: bold;
+    color: #9c0000;
+    font-size: 21px;
+}
+
+.live-game-box-text3
+{
+    font-weight: bold;
+    color: #008000;
+    font-size: 21px;
+}
+
+.bg2 {
+    padding: 10px;
+    background-color: #f1eed3;
+    border: 2px solid #a2872f;
+    text-align: center;
+}
+
+
+.bg2-text1 {
+    padding: 3px;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.live-result-box
+{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: #4f3413;
+}
+
+.button2 {
+    border: 2px solid #ffc966;
+    background-color: #4f3413;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 8px 0;
+    box-shadow: 0px 0px 1px #000000d6;
+    font-size: 12px;
+    margin: 2px 0 -1px;
+    margin-top: 2px;
+    margin-top: 2px;
+    display: block;
+    transition: all .3s;
+    text-shadow: 1px 1px 2px #222;
+    margin-top: 5px;
+}
+
+
+.result-live-box {
+    text-align: center;
+    color: #1a946f;
+    background-color: #f1eed3;
+    padding: 8px;
+
+    border: 3px solid #6b4312;
+}
+.result-live-box-text1
+{
+    font-size: 22px;
+        font-weight: bold;
+        color: #2125ff;
+        margin-bottom: 0;
+}
+
+.result-live-box-text2
+{
+    font-weight: bold;
+    color: #9c0000;
+    font-size: 21px;
+}
+
+.result-live-box-text3
+{
+    font-weight: bold;
+    color: #008000;
+    font-size: 21px;
+}
+
+
+.online-matka-play {
+    text-align: center;
+    color: #1a946f;
+   background-color: #40271a;
+    border: 2px solid #d1d1d1;
+}
+
+.online-matka-play-text1 {
+   
+    color: #ffffff;
+    font-size: 21px;
+}
+.online-matka-play-text2 {
+   
+    color: #520b07;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+.lucky-number-box-1
+{
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    background-color: #fc8461;
+}
+.lucky-number-box-2
+{
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.lucky-number-box-3
+{
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #ff006c;
+}
+.lucky-number-box-4
+{
+    text-align: center;
+    color: #000000;
+    padding: 2px;
+    font-size: 23px;
+    font-weight: 800;
+    
+}
+
+.bg3 {
+    padding: 10px;
+    background-color: #fff7ed !important;
+    border: 2px solid #a2872f;
+    text-align: center;
+}
+
+
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+   border: 3px solid #520b07;
+}
+
+
+td {
+     padding: 0px !important;
+     border: 3px solid #520b07;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+   color: #520b07 !important;
+}
+
+th {
+    padding: 3px !important;
+    border: 3px solid #520b07;
+    color: #48333c !important;
+    font-weight: 700 !important;
+    text-align: center;
+    font-size: 22px;
+}
+

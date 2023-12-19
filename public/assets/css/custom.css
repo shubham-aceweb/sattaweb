@@ -1,0 +1,39 @@
+/*input[type="file"]{
+    padding: 3px 6px;
+}*/
+
+/*.txtwithoutsymble span {
+    text-transform: capitalize;
+}*/
+
+.btn.disabled, .btn:disabled {
+    opacity: .35;
+}
+
+#content{min-height: 768px;}
+
+.sidebar .nav-item .nav-link{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+button.close.close-cust,
+button.close.close-cust-1, 
+button.close.close-cust-2,
+button.close.close-cust-3,
+button.close.close-cust-4,
+button.close.close-cust-5 {
+    float: unset;
+    margin-top: -1%;
+    position: absolute;
+}
+
+/* Select 2 css*/
+/*.select2-container--default .select2-selection--single .select2-selection__rendered{
+        line-height: 18px;
+        background-color: transparent;
+    	color:#333;
+    	font-size: 14px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 5px;
+}*/
