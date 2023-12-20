@@ -10,6 +10,7 @@ use Carbon\Carbon;
 use Illuminate\Support\Facades\Storage;
 use App\Classes\FileUpload;
 use App\Models\Market;
+use App\Models\LotteryResultHistoryMaster;
 use Illuminate\Support\Str;
 use Session;
 /**
@@ -291,6 +292,14 @@ class LotteryController extends Controller
 
         
     }
+
+    public function delete_winning_lotteryresult($id)
+    {
+        $logo = LotteryResultHistoryMaster::find($id);    
+        $logo->delete();
+        return redirect('admin/wining-lottery-result')->withSuccess('Lottery Result Deleted Sucessfully');
+    }
+
     public function wining_lottery_result_update(Request $request)
     {
 

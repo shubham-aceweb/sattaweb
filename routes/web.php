@@ -111,7 +111,8 @@ Route::group(['prefix' => 'agent'], function () {
     Route::post('/lottery-update-data/{id}', [App\Http\Controllers\Admin\LotteryController::class, 'lottery_update_data']);
     // winning lottery edit updated added by anamika
     Route::get('/edit-winning-lottery/{id}', [App\Http\Controllers\Admin\LotteryController::class, 'edit_winning_lottery']);
-    Route::post('/winning-lottery-update-data/{id}', [App\Http\Controllers\Admin\LotteryController::class, 'winning_lottery_update_data']);
+    Route::post('/winning-lottery-update-data/{id}', [App\Http\Controllers\Admin\LotteryController::class, 'winning_lottery_update_data']); 
+    Route::get('/delete-winning-lottery-result/{id}',[App\Http\Controllers\Admin\LotteryController::class, 'delete_winning_lotteryresult']);
 
     Route::get('/lottery-result-history', [App\Http\Controllers\Admin\LotteryResultDeclareController::class, 'lottery_result_history']);
 

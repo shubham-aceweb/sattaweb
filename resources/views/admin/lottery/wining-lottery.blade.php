@@ -150,7 +150,10 @@
                                     <td>{{$value->close_time}}</td>
                                     <td>{{$value->updated_at}}</td>
                                     <td><a href="{{url('admin/edit-winning-lottery', ['id' => $value->id]) }}" class="btn btn-warning btn-sm mr-1 mb-1">Correction</a></td>
-                                    <!-- <td><a target="_blank" href="{{url('/admin/reset-result/'.$value->lottery_name.'/'.$value->lottery_date)}}" class="btn btn-warning btn-sm mr-1 mb-1">Correction</a></td> -->
+                                    <td>
+                                        <a href="{{url('admin/delete-winning-lottery-result', ['id' => $value->id])}}"><i class="glyphicon glyphicon-trash"></i>Delete</a>
+                                        <!-- <a  href="{{url('/admin/reset-result/'.$value->lottery_name.'/'.$value->lottery_date)}}" class="btn btn-warning btn-sm mr-1 mb-1">Delete</a> -->
+                                    </td>
                                 </tr>
                                 @endforeach @endif
                             </tbody>
