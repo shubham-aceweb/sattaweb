@@ -299,7 +299,7 @@
                                         <div class="card-body">
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col mr-2">
-                                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Toatl Withdraw Amount</div>
+                                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Total  Withdraw Amount</div>
                                                     <div class="h5 mb-0 font-weight-bold text-gray-800">{{$total_withdraw_amount}}</div>
                                                 </div>
                                                 <div class="col-auto">
@@ -315,7 +315,7 @@
                                         <div class="card-body">
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col mr-2">
-                                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Toatl Deposit Amount</div>
+                                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Total Deposit Amount</div>
                                                     <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">{{$total_deposit_amount}}</div>
                                                 </div>
                                                 <div class="col-auto">
@@ -331,7 +331,7 @@
                                         <div class="card-body">
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col mr-2">
-                                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Toatl Win Lottery Amount</div>
+                                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Total Win Lottery Amount</div>
                                                     <div class="h5 mb-0 font-weight-bold text-gray-800">{{isset($lottery_win_amount)?$lottery_win_amount:0}}</div>
                                                 </div>
                                                 <div class="col-auto">
@@ -346,7 +346,7 @@
                                         <div class="card-body">
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col mr-2">
-                                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Toatl Loss Lottery Amount</div>
+                                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Total Loss Lottery Amount</div>
                                                     <div class="h5 mb-0 font-weight-bold text-gray-800">{{isset($lottery_loss_amount)?$lottery_loss_amount:0}}</div>
                                                 </div>
                                                 <div class="col-auto">

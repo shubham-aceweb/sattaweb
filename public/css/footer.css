@@ -46,9 +46,9 @@ p {
 	float: left;
 	text-align: center;
 	color: #fff;
-  /**	background-color: #343150; **/
-	background-color: #9f2b23;
+  background-color: #3a48ed !important;
 }
+
 
 .f-w-700 {
 	font-weight: 700 !important;
@@ -192,3 +192,6 @@ a {
 	text-align: center;
 }
 
+.live ptb-10{
+	background-color: #23439f;
+}

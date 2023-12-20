@@ -1,11 +1,11 @@
 .bg1 {
     padding: 25px;
-    background-color: #e0ffa5;
+    background-color: #a89bf3;
     text-align: center;
 }
 
 .font1 {
-    font-style: italic;
+   
     color: #282e2e;
     font-size: 30px !important;
     border-style: double !important;
@@ -28,7 +28,7 @@
     border: solid 1px #00bdff;
     width: 279px;
     margin: 10px auto 0;
-    background: #455161;
+    background: #110365;
     font-weight: 900;
     color: #fff;
     font-weight: 100;
@@ -47,7 +47,7 @@
     text-align: center;
     color: #fff;
     padding: 10px;
-    background-color: #9f2b23;
+    background-color: #f31202;
 }
 
 .blink_me {
@@ -61,7 +61,7 @@
 }
 .font3 {
     font-size: 30px;
-    font-family: Helvetica Neue;
+    font-family: poppins bold;
     font-weight: bold;
     color: #ffffff;
     font-style: italic;
@@ -104,7 +104,7 @@
 
 .bg2 {
     padding: 10px;
-    background-color: #f1eed3;
+    background-color: #ced7f3;
     border: 2px solid #a2872f;
     text-align: center;
 }
@@ -122,7 +122,7 @@
     text-align: center;
     color: #fff;
     padding: 10px;
-    background-color: #4f3413;
+    background-color: #15ab3c;
 }
 
 .button2 {
@@ -146,7 +146,7 @@
 .result-live-box {
     text-align: center;
     color: #1a946f;
-    background-color: #f1eed3;
+    background-color: #ced7f3;
     padding: 8px;
 
     border: 3px solid #6b4312;
@@ -177,7 +177,7 @@
 .online-matka-play {
     text-align: center;
     color: #1a946f;
-   background-color: #40271a;
+   background-color: #142459;
     border: 2px solid #d1d1d1;
 }
 
@@ -195,23 +195,23 @@
 .lucky-number-box-1
 {
     text-align: center;
-    color: #000000;
+    color: #0e1d4d;
     padding: 10px;
-    background-color: #fc8461;
+    background-color: #142459;
 }
 .lucky-number-box-2
 {
     text-align: center;
     color: #000000;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #ced7f3;
 }
 .lucky-number-box-3
 {
     text-align: center;
     color: #ffffff;
     padding: 10px;
-    background-color: #ff006c;
+    background-color: #1c4bdd;
 }
 .lucky-number-box-4
 {
@@ -225,7 +225,7 @@
 
 .bg3 {
     padding: 10px;
-    background-color: #fff7ed !important;
+    background-color: #ced7f3 !important;
     border: 2px solid #a2872f;
     text-align: center;
 }

@@ -82,7 +82,7 @@
                                 <label class="col-form-label">Status <span class="text-danger" title="This field is required">*</span></label>
                                 <select name="status" class="form-control">
                                     <option value="">Select Status</option>
-                                    <option value="Open" {{ $lottery_detail->status == 'Open' ? 'selected' : '' }}>Update</option>
+                                    <!-- <option value="Open" {{ $lottery_detail->status == 'Open' ? 'selected' : '' }}>Update</option> -->
                                     <option value="Disable" {{ $lottery_detail->status == 'Disable' ? 'selected' : '' }}>Holiday</option>
                                     <option value="Deactive" {{ $lottery_detail->status == 'Deactive' ? 'selected' : '' }}>Deactive</option>
                                     <option value="Close" {{ $lottery_detail->status == 'Close' ? 'selected' : '' }}>Close</option>
